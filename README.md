@@ -1,11 +1,23 @@
 # Research Class for R
 
-A starter repository for organizing R scripts used in academic research and data analysis.
+A structured R research workspace for reproducible data preparation, statistical analysis, tables, regression models, and research visualisation.
 
-## Project owner
+## Researcher
 
 **Mominul Islam**  
-*Sociology Researcher | Public Health & Climate Justice | Data Analysis & Social Research*
+**Public Health Researcher | Health & Social Research**
+
+This repository is maintained as a practical research environment for developing reproducible R workflows and organising analytical methods used in academic research.
+
+## Research areas
+
+- Public Health
+- Health & Social Research
+- Social Research
+- Quantitative Data Analysis
+- Statistical Analysis
+- Research Data Management
+- Research Visualisation
 
 ## Repository structure
 
@@ -15,7 +27,7 @@ Research-Class-For-R/
 │   ├── 00_setup.R
 │   ├── 01_Data_Preprocessing.R
 │   ├── 02_Descriptive_Table.R
-│   ├── 03_Regresssion_Table.R
+│   ├── 03_Regression_Table.R
 │   └── 04_Visualization.R
 ├── Research-Class-For-R.Rproj
 ├── .gitignore
@@ -23,29 +35,38 @@ Research-Class-For-R/
 └── README.md
 ```
 
-## Current status
+## Analytical workflow
 
-This repository is currently a project scaffold. The R script files are placeholders and do not yet contain analysis code. Add project-specific methods, data descriptions, package requirements, and reproducible instructions as the work develops.
+The repository is organised around a standard research workflow:
 
-## Intended organization
+1. **Project setup** — packages, paths, options, and reproducibility settings.
+2. **Data preprocessing** — importing, cleaning, recoding, and preparing research data.
+3. **Descriptive analysis** — summary statistics and publication-ready descriptive tables.
+4. **Regression analysis** — statistical models and regression tables.
+5. **Visualisation** — clear and reproducible figures for research communication.
 
-The script names indicate a planned workflow for:
+The scripts are currently a scaffold and will be expanded as analysis projects develop.
 
-1. Project setup.
-2. Data preprocessing.
-3. Descriptive tables.
-4. Regression tables.
-5. Data visualization.
+## Reproducibility standards
 
-These are organizational headings only; the corresponding scripts still need implementation.
+Research workflows should be transparent, documented, and reproducible. When analysis code is added:
 
-## Reproducibility and data care
+- Document data sources and inclusion criteria.
+- Record cleaning and transformation decisions.
+- Keep analytical assumptions explicit.
+- Record R and package versions where relevant.
+- Use stable, descriptive file and variable names.
+- Never commit confidential, personally identifiable, or restricted research data.
+- Follow applicable research ethics and data-use requirements.
 
-- Do not commit confidential, personally identifiable, or restricted research data.
-- Document data sources, cleaning decisions, and analytical assumptions.
-- Record package dependencies and software versions when analysis code is added.
-- Follow the relevant data-use agreements and research ethics requirements.
+## Scope
 
-## Research interests
+This repository is intended for **research methodology, statistical programming, and reproducible analysis**. It does not contain confidential participant information or restricted datasets.
 
-Sociology · Public Health · Climate Justice · Data Analysis · Social Research
+## Status
+
+**Active research workspace** — scripts and analytical workflows will be developed progressively.
+
+## License
+
+Released under the MIT License.
